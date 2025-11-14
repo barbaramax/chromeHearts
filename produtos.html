@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos - Chrome Hearts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png">
+</head>
+<body class="escuro"> <!--para diferenciar da pag 1 -->
+    <div class="header">
+        <nav>
+            <div  class="esq">
+                <img src="https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/en_US/images/cross.svg" alt="logo2">
+                <ul>
+                    <li><a href="index.html" class="inicio">Início</a></li>
+                    <li><a href="produtos.html" class="roupas">Roupas</a></li>
+                    <li><a href="#acessorios" class="acessorios">Acessórios</a></li>
+                </ul>
+            </div>
+
+            <div class="centro">
+                <img src="https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/en_US/images/ch-scroll.svg" alt="logo" class="logo">
+            </div>
+            <div class="dir">
+                <ul class="icon">
+                    <div class="pesquisa">
+                      <input type="text" id="buscar" placeholder="Nome do produto" />
+                      <i class="fa-solid fa-magnifying-glass" id="btnPesquisa"></i>
+                    </div>
+                    <li class="login">
+                        <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                    <i class="fa-solid fa-heart"></i>
+                    <li class="carrinho">
+                        <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <span id="itens-carrinho">0</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- menu -->
+     
+    <div class="cabecalho">
+        <h1>NEW DROP</h1>
+        <h2>ESCOLHA SEU FIT</h2>
+    </div>
+
+  <div class="filtros">
+    <button onclick="mostrar('todos')">Ver todos</button>
+    <button onclick="mostrar('Drop Anterior')">Drop anterior</button>
+  </div>
+
+  <main class="produtos">
+
+    <div class="produto" data-sexo="Drop Anterior" onclick="clicar('Chrome Hearts T Shirt','img5.png','165.00')">
+      <div class="img-wrap">
+        <img src="imagens/img5.png" alt="Chrome Hearts T Shirt">
+      </div>
+      <p class="nome-produto">Chrome Hearts T Shirt</p>
+      <p class="preco">$165.00</p>
+      <div class="filtros">
+        <a href="item.html"><button class="prod">Comprar</button></a>
+      </div>
+      
+    </div>
+
+    <div class="produto" data-sexo="todos">
+      <div class="img-wrap">
+        <img src="imagens/img13.png" alt="Chrome Hearts Biker Jacket">
+      </div>
+      <p class="nome-produto">Chrome Hearts Biker Jacket</p>
+      <p class="preco">$450.00</p>
+      <div class="filtros">
+        <a href="item2.html"><button class="prod">Comprar</button></a>
+      </div>
+    </div>
+
+    <div class="produto" data-sexo="Drop Anterior">
+      <div class="img-wrap">
+        <img src="imagens/img8.png" alt="Chrome Heart Shirt">
+      </div>
+      <p class="nome-produto">Chrome Hearts Shirt</p>
+      <p class="preco">$219.90</p>
+      <div class="filtros">
+        <a href="item3.html"><button class="prod">Comprar</button></a>
+      </div>
+    </div>
+
+
+    <div class="produto" data-tipo="todos">
+      <div class="img-wrap">
+        <img src="imagens/img7.png" alt="Authentic Chrome Hearts Jeans">
+      </div>
+      <p class="nome-produto">Authentic Chrome Hearts Jeans</p>
+      <p class="preco">$189.90</p>
+      <div class="filtros">
+        <a href="item4.html"><button class="prod">Comprar</button></a>
+      </div>
+    </div>
+
+    <div class="produto" data-tipo="Drop Anterior">
+      <div class="img-wrap">
+        <img src="imagens/img6.png" alt="Chrom Heart Jeans">
+      </div>
+      <p class="nome-produto">Chrome Hearts Jeans</p>
+      <p class="preco">$199.90</p>
+      <div class="filtros">
+        <a href="item5.html"><button class="prod">Comprar</button></a>
+      </div>
+    </div>
+
+    <div class="produto" data-tipo="todos">
+      <div class="img-wrap">
+        <img src="imagens/img14.png" alt="Chrome Hearts Denim Jacket">
+      </div>
+      <p class="nome-produto">Chrome Hearts Denim Jacket</p>
+      <p class="preco">$209.90</p>
+      <div class="filtros">
+        <a href="item6.html"><button class="prod">Comprar</button></a>
+      </div>
+    </div>
+
+    <div class="produto" data-tipo="Drop Anterior">
+      <div class="img-wrap">
+        <img src="imagens/img15.png" alt="Blue Chrome Hearts Jacket">
+      </div>
+      <p class="nome-produto">Blue Chrome Hearts Jacket</p>
+      <p class="preco">$229.90</p>
+      <div class="filtros">
+        <a href="item7.html"><button class="prod">Comprar</button></a>
+      </div>
+    </div>
+
+    <div class="produto" data-tipo="todos">
+      <div class="img-wrap">
+        <img src="imagens/camisa.png" alt="Chrome Hearts T Shirt">
+      </div>
+      <p class="nome-produto">Chrome Hearts T Shirt</p>
+      <p class="preco">$300.50</p>
+      <div class="filtros">
+        <a href="item8.html"><button class="prod">Comprar</button></a>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="cabecalho">
+        <h1>ACESSÓRIOS</h1>
+        <h2>COMPLETE SEU VISUAL</h2>
+  </div>
+
+  <div id="acessorios">
+    <main class="produtos">
+      <div class="produto" onclick="clicar('Cemetery Ring Chrome Hearts','img12.png','549.00')">
+        <div class="img-wrap">
+          <img src="imagens/ac1.png" alt="Chrome Hearts Biker Jacket">
+        </div>
+        <p class="nome-produto">Cemetery Ring Chrome Hearts</p>
+            <p class="preco">$549.00</p>
+        <div class="filtros">
+          <a href="acessorio.html"><button class="prod">Comprar</button></a>
+        </div>
+      </div>
+
+      <div class="produto" data-sexo="Drop Anterior">
+        <div class="img-wrap">
+          <img src="imagens/ac2.png" alt="Chrome Heart Shirt">
+        </div>
+        <p class="nome-produto">Chrome Hearts Dagger Ring</p>
+        <p class="preco">$449.00</p>
+        <div class="filtros">
+          <a href="ac2.html"><button class="prod">Comprar</button></a>
+        </div>
+      </div>
+
+
+      <div class="produto" data-tipo="todos">
+        <div class="img-wrap">
+          <img src="imagens/ac3.png" alt="Authentic Chrome Hearts Jeans">
+        </div>
+        <p class="nome-produto">Chrome Hearts Forever Ring</p>
+            <p class="preco">$399.90</p>
+        <div class="filtros">
+          <a href="ac3.html"><button class="prod">Comprar</button></a>
+        </div>
+      </div>
+
+      <div class="produto" data-tipo="Drop Anterior">
+        <div class="img-wrap">
+          <img src="imagens/ac4.png" alt="Chrom Heart Jeans">
+        </div>
+        <p class="nome-produto">Chrome Hearts Diamond Ring</p>
+        <p class="preco">$1.180.00</p>
+        <div class="filtros">
+        <a href="ac4.html"><button class="prod">Comprar</button></a>
+        </div>
+      </div>
+
+      
+        </section>
+      </main>
+    </div>
+	
+
+  </main>
+  <div class="rodape">
+        <div class="links">
+        <a href="https://www.chromehearts.com/terms.html">TERMOS DE USO</a>
+        <a href="https://www.chromehearts.com/disclosure.html">CÓDIGO DE CONDUTA</a>
+        <a href="https://www.chromehearts.com/privacy.html">POLITICA DE PRIVACIDADE</a>
+        <a href="https://www.chromehearts.com/general.html">INFORMAÇÕES GERAIS</a>
+        <a href="https://www.chromehearts.com/contact">CONTATO</a>
+  </div>
+
+  <div class="social">
+    <a href="https://www.instagram.com/chromeheartsofficial/" target="_blank">
+      <img src="https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/en_US/images/ch-instagram.png" 
+           alt="Instagram">
+    </a>
+  </div>
+
+  <p>© 2025 Chrome Hearts. Todos os direitos reservados.</p>
+  
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
