@@ -24,8 +24,8 @@ O site está hospedado em: chromeheart.netlify.app
 
 A interface foi projetada para transmitir a estética premium da marca Chrome Hearts, utilizando tipografias marcantes, contrastes fortes e elementos que reforçam sua identidade.
 
-<img src="visual/index.png"/>
-<img src="visual/produtos.png"/>
+<img src="imagens/index.png"/>
+<img src="imagens/produtos.png"/>
 
 ---
 
