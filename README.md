@@ -33,6 +33,6 @@ A interface foi projetada para transmitir a estética premium da marca Chrome He
 
 * **HTML5:** Utilizado para a estrutura e conteúdo da página.
 * **CSS3:** Empregado para estilização, layout e responsividade do site.
-* * **JavaScript:** Utilizado para funções visuais e interações simples, como simulações de carrinho e manipulação do DOM.
+* **JavaScript:** Utilizado para funções visuais e interações simples, como simulações de carrinho e manipulação do DOM.
 
 ---
