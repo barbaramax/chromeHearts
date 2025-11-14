@@ -16,7 +16,7 @@ O site está hospedado em: chromeheart.netlify.app
 * **Página de Produtos:** Exibe diferentes itens inspirados na estética da Chrome Hearts, com imagens, preços e detalhes estilizados.
 * **Design Inspirado na Marca:** Toda a identidade visual foi criada com base no estilo da Chrome Hearts, mantendo o tom minimalista da marca.
 * **Página de Detalhes do Produto:** Simulação de uma página individual contendo imagem ampliada, descrição e visualização de detalhes do produto.
-* * **Carrinho:** Estrutura criada com HTML + CSS + JS para simular a interação de adicionar itens ao carrinho.
+* **Carrinho:** Estrutura criada com HTML + CSS + JS para simular a interação de adicionar itens ao carrinho.
 
 ---
 
